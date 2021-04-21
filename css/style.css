@@ -1,0 +1,19 @@
+li.img {
+    display: block;
+    box-sizing: content-box;
+}
+img {
+    height: 480px;
+    width: 640px;
+}
+#validation-input {
+    border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+    border-color: #4caf50;
+}
+
+#validation-input.invalid {
+    border-color: #f44336;
+}
