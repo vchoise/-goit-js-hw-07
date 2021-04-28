@@ -9,3 +9,4 @@ const addElement = (text) => {
     document.body.insertBefore(newDiv, my_div);
 }
 ingredients.forEach(elem => addElement(elem));
+
